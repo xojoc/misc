@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+urxvt -fg white -bg black -fn 'xft:Terminus:pixelsize=22'
