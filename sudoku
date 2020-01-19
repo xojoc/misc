@@ -1,0 +1,26 @@
+#lang racket
+
+(require racket/math)
+(require math/array)
+(require graph)
+(require plot)
+; generate all sudokus
+; https://en.wikipedia.org/wiki/Mathematics_of_Sudoku
+
+
+
+;(define possible-columns
+;  (append '(())
+;          (map
+;           (lambda (n) (permutations (remove n (range 1 10))))
+;           (range 1 10))))
+
+(define (list->index lst)
+  (foldl
+   (lambda (n idx)
+     (bitwise-ior (arithmetic-shift 1 (- n 1)) idx))
+   0
+   lst))
+
+;(define first-row (in-permutations (range 1 10)))
+

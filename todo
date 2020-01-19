@@ -1,0 +1,159 @@
+* chess arduino (micro-chess)
+
+# articles
+tst
+dwag
+interesting langs
+mix examples
+computational images (polar rose, fractals, city generation, snowflakes)
+
+# projects
+analyze go programs, most common names, function names, number of functions, lines, etc.
+xrefgo.pw
+forth compiler
+cat compiler
+ggg/rrr/sss
+color jump
+weird jump
+dolly
+princess any/princess brio
+goread
+deq!
+
+# algorithms into the wild
+abs
+
+# topics research
+functional shell
+
+## ntools
+tcpdump
+nmap
+ping
+traceroute
+wget
+dnsutils
+dnstracer
+wireshark
+dsniff
+ncrack
+
+## BUGS
+shuf -i 3-2
+shuf -i 1-$(echo '2^32'|bc): malloc failure
+dd|wc
+what is shuf-nores
+shuf: head_lines and lo_input by default is SIZE_MAX
+
+# rust examples
+matrices!
+hashmap with strings
+reading files
+
+
+# Perflang
+modular (go, haskell)
+functional (enchilada, haskell)
+concanative (forth, joy)
+staticaly compiled with a jit compiler (see fujujima)
+whole program compilation optimization
+rewriting rules (dup drop)
+static type system, type inference
+tail recursion (scheme, colorforth)
+self-hosted (smalltalk) (find a way to export individual applications)
+continued fractions or other symbolic arithmetic
+types of specific size (1, 2, 3, 4, 8 bytes)
+block memory allocation, with pools
+unicode strings
+each fun has a signature which indicates if the fun is pure or can be runned out of order. When calling the fun you can use another signature to change the default one.
+instead of lazy evaluation, combine multiple functions and do a single pass application: e.g. [1 2 3] (+3) map (+2) map -> [1 2 3] (+5) map
+no modules export functions
+a lang is used for: parsing, image manipulation, matrixes, 
+
+# Ludo
+stages
+variables that reset
+easing/animations
+states for update and renderfakid
+ * email
+ * profession
+ * sex
+ * country
+ * nick many options
+ * passphrase
+ * blood type
+ * favorite color
+ * likes
+ * hates
+ 
+ * short bio
+ * bio
+ * social message
+ * blog post
+ * birth date
+ * age
+ * tropical zodiac
+ * height
+ * weight
+ * street?
+ 
+scrumble
+ * sinonyms
+ * unicode
+ * zero-width space
+ * split phrases, merge phrases.
+ * recognize urls and other special formats.
+ 
+strip0w strip zero width spaces
+
+
+cli editor ed sam
+ * work with big files
+ * maybe line/col print
+
+pcol
+ * rgba, lab, hsv
+ * wiki color list
+ * output RGB hex
+
+
+static/minimalist/blogging/platform smbp.xyz
+* Very low page size
+* Archive
+* Paid bandwidth
+* Slow link
+* SuperFast
+* Good luck ddos
+* 50 years
+* 50 euro/forever
+* no costum domain
+* almost no css / fuckingwebsite
+* IamIn@smbp.xyz
+* DVCS
+
+
+* Hacker with smart hacks
+* Well-written code
+* Hactivist/privacy-fighter
+* Free software activist
+
+
+* Troubled mind
+
+# project ideas (book)
+* editor
+* forth/scheme
+* file system/ database
+* simple search engine / gutenberg
+* composable GUI
+* image viewer / png bomb / resize / cache
+* platformer
+* IM quee
+
+* htmlgzip
+
+* "positional" programming language for file formats/protocols
+
+gopher search engine
+
+overhead - zlib png deflate etc.
